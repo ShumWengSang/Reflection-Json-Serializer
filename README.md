@@ -18,8 +18,11 @@ Follow the instructions for [installing RTTR here](https://www.rttr.org/doc/mast
 7) This should generate a Visual Studio solution of RTTR project inside "Build" folder
 8) Use Visual Studio to open solution
 9) Build project CMakePredefinedTargets/INSTALL
-10) Note the output directory and look for rttr-config.cmake file ![picture example]()
-11) Modify my CMakeLists.txt 
+10) Note the output directory and look for rttr-config.cmake file 
+
+![picture example](https://github.com/ShumWengSang/Reflection-Json-Serializer/blob/main/Screenshot%202021-10-18%20004336.png)
+
+12) Modify my CMakeLists.txt 
 ```cmake
 // Change this to where the rttr-config.cmake file is!
 set(RTTR_DIR ${CMAKE_CURRENT_SOURCE_DIR}/rttr/build/install/cmake)
