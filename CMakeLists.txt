@@ -5,6 +5,6 @@ set(RTTR_DIR ${CMAKE_CURRENT_SOURCE_DIR}/rttr/build/install/cmake)
 message(${RTTR_DIR})
 find_package(RTTR CONFIG REQUIRED Core)
 
-add_executable(testrttr main.cpp source.cpp)
+add_executable(testrttr toJson.cpp source.cpp)
 
 target_link_libraries(testrttr RTTR::Core)

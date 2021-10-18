@@ -1,9 +1,6 @@
-#include <string>
-#include <iostream>
-#include "json/single_include/nlohmann/json.hpp"
-#include <rttr/registration>
+#include "Headers.h"
 
-using json = nlohmann::json;
+// Function declaration
 json ToJson(rttr::instance obj, const char * name) ;
 
 using namespace rttr;
